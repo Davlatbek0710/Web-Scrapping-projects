@@ -1,3 +1,24 @@
+"""
+    Automated Spotify playlist creation usign BeatifulSoup and Spotify WEB API docs
+    First we fetch top 100 song in specified date format YYYY-MM-DD from user, 
+    we scrape the data from https://www.billboard.com/charts/hot-100/    +    date   
+    ex: https://www.billboard.com/charts/hot-100/  +  "2020-02-15"
+    after fetching all 100 top song names we create a playlist usign spotipy module, after successful authontication.
+    i.e:
+        You need to have:
+        - CLIENT_ID
+        - CLIENT_SECRET
+        you can get these 👆datas after creating an app in https://developer.spotify.com/
+    then you would need to read https://spotipy.readthedocs.io/en/2.22.1/ 
+    for getting all things done!
+
+    @uthor: Davlatbek Kobiljonov
+                                                                                            12/05/2024
+"""
+
+
+
+
 import requests
 from bs4 import BeautifulSoup
 import spotipy
