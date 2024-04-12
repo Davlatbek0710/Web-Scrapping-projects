@@ -15,10 +15,6 @@
     @uthor: Davlatbek Kobiljonov
                                                                                             12/05/2024
 """
-
-
-
-
 import requests
 from bs4 import BeautifulSoup
 import spotipy
