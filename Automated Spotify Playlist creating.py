@@ -33,8 +33,8 @@ all_songs = soup.select(selector="div ul li.lrv-u-width-100p ul h3")
 song_names = [x.getText().strip() for x in all_songs]
 
 # Authentication with Spotify
-CLIENT_ID = "fbf067d2fd56448ba05a7b1ed3da437e"
-CLIENT_SECRET = "e2ba44252faf4be194501819bc29816d"
+CLIENT_ID = YOUR CLIENT ID
+CLIENT_SECRET = YOUR CLIENT SECTRET
 SPOTIPY_REDIRECT_URI = "http://example.com"
 
 # Setting up Spotify client
