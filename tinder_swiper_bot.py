@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
 from time import sleep
 
-PHONE = "+998947031703"
-PSWD = "Abdulaziz1709"
+PHONE = YOUR PHONE NUMBER
+PSWD = PSWD_FOR_FACEBOOK
 
 
 options = webdriver.ChromeOptions()
