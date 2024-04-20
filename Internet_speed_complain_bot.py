@@ -1,8 +1,8 @@
 '''
     This code is an automation complaint about the speed of your internet
     to your personal ISP (Internet Service Provider)
-    first bot gets the download and upload speeds of internet and checks whether it
-    satisfies for which speed you are paying for, if it doesn't satisfy
+    first bot gets the download and upload speeds of internet and checks if it
+    satisfies the promised speeds, if it doesn't
     then the bot logs in to twitter and posts a complaint by tagging the username of ISP
 '''
 
@@ -12,8 +12,8 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from selenium.webdriver.common.keys import Keys
 
-TWITTER_EMAIL = 'kobiljonovdavlat@gmail.com'
-TWITTER_PASSWORD = 'Samarqandi0710'
+TWITTER_EMAIL = YOUR EMAIL
+TWITTER_PASSWORD = YOUR PASSWORD
 PROMISED_DOWN = 150
 PROMISED_UP = 10
 SPEEDTEST_WEBSITE = 'https://www.speedtest.net/'
